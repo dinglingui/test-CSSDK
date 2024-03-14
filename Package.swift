@@ -15,7 +15,7 @@ let package = Package(
     targets: [
           .binaryTarget(
               name: "cc--PDF",
-              url: "https://customers.pspdfkit.com/pspdfkit-xcframework-13.3.3.zip",
-              checksum: "3bf6a841addeab932929cbc9a7c594a8a7e2b8e1480951d5e391d9a07c9234a4"),
+              url: "https://www.compdf.com/download/ios/cocoapods/xcframeworks/compdfkit/1.13.0.zip",
+              checksum: "757dd657b862f957d47792133c09ef083eb7edecca04727cdd0e61ec3fe09c20"),
       ]
 )
