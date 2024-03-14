@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "cc--PDF",
+    name: "ComPDFKit",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "cc--PDF",
-            targets: ["cc--PDF"]),
+            name: "ComPDFKit",
+            targets: ["ComPDFKit"]),
     ],
  
     targets: [
           .binaryTarget(
-              name: "cc--PDF",
-              url: "https://www.compdf.com/download/ios/cocoapods/xcframeworks/compdfkit/1.13.0.zip",
-              checksum: "757dd657b862f957d47792133c09ef083eb7edecca04727cdd0e61ec3fe09c20"),
+              name: "ComPDFKit",
+              url: "https://www.compdf.com/download/ComPDFKit.xcframework.zip",
+              checksum: "3d5ff06a6e7e07d5f83d6763fef4f6a32e8b5fdbba08909d462d8d7d7e96b6a7"),
       ]
 )
